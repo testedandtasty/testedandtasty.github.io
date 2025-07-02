@@ -1,31 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   max-width: 700px;
   margin: 20px auto;
   padding: 0 15px;
-  color: #333;
-  background: #fff9f4;
+  color: #333333;
+  background: #faf9f6; /* soft off-white */
 }
 
 header, footer {
   text-align: center;
   margin-bottom: 30px;
+  color: #3a5068; /* muted dark blue */
 }
 
 h1 {
-  color: #d65a31;
-  font-size: 2.5rem;
+  font-family: 'Nunito', sans-serif;
+  color: #ff6f61; /* coral */
+  font-size: 3rem;
   margin-bottom: 0.2em;
+  letter-spacing: 1px;
 }
 
 h2 {
-  color: #b24422;
+  color: #3a5068;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 1.5em;
 }
 
 .recipes img {
   max-width: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+article {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+article:hover {
+  box-shadow: 0 6px 20px rgba(255,111,97,0.3);
 }
 
 ul, ol {
@@ -34,5 +55,5 @@ ul, ol {
 
 footer {
   font-size: 0.9rem;
-  color: #666;
+  color: #888888;
 }
